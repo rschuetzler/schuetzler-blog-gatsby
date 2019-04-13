@@ -1,6 +1,7 @@
 ---
 date: '2013-04-04'
 title: Apps I love - BeyondPod edition
+description: Why I love BeyondPod for managing my podcasts.
 ---
 
 Not so very long ago, I used an iPad for a lot of things. One of those things was listen to podcasts. Now, the Apple podcast app came out about that time, and it was a train wreck. Nothing started, there was no way to manage a playlist, and half the time it would just quit. So I moved to <a href="https://itunes.apple.com/au/app/downcast/id393858566?mt=8">Downcast</a> and was a happy camper.
