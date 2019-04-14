@@ -25,33 +25,31 @@ Apache JMeter may be used to test performance both on static and dynamic resourc
 </ul>
 <h1 style="text-align: center;">Ease of Use</h1>
 <h2>Ease of Installation</h2>
-Install Java, download the zip file and unzip it. Run the .bat file to run the program and you’re set.<!--more-->
+Install Java, download the zip file and unzip it. Run the .bat file to run the program and youï¿½re set.<!--more-->
 <strong> </strong>
 <h2>Setting up a Test</h2>
-Add a thread group to the test plan. Configure the thread group by determining ramp-up period and how many threads you want running at the end (see Figure 1). Set up a proxy to record your test (Right-click Workbench à Add à Non-test elements à HTTP Proxy server). After the proxy is set up you can tell your browser to route requests through the proxy (default localhost:8080). The proxy will record all requests and store them in the Thread Group as samplers. Add a listener to record your test results and you’re good to go. Overall it’s a very straightforward, well-documented process.<strong> </strong>
+Add a thread group to the test plan. Configure the thread group by determining ramp-up period and how many threads you want running at the end (see Figure 1). Set up a proxy to record your test (Right-click Workbench ï¿½ Add ï¿½ Non-test elements ï¿½ HTTP Proxy server). After the proxy is set up you can tell your browser to route requests through the proxy (default localhost:8080). The proxy will record all requests and store them in the Thread Group as samplers. Add a listener to record your test results and youï¿½re good to go. Overall itï¿½s a very straightforward, well-documented process.<strong> </strong>
 
-<a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled.png"><img class="alignnone size-full wp-image-51" title="Creating a Thread group" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled.png" alt="" width="571" height="349" /></a>
 
 Figure 1 - Create thread group
 <h2>Running a Test</h2>
-Run à Start or Ctrl+R. Bam!<strong> </strong>
+Run ï¿½ Start or Ctrl+R. Bam!<strong> </strong>
 <h2>Technical Knowledge Needed</h2>
 Very little technical knowledge is needed. It does require the ability to learn how to do something from the documentation since it is not very intuitive.<strong> </strong>
 <h2>Platforms</h2>
 JMeter is a Java program, and thus runs wherever Java can. It requires Java 1.4 or greater.<strong> </strong>
 <h1 style="text-align: center;"><strong>Functionality</strong></h1>
 <h2>Recording a test</h2>
-JMeter provides a proxy server through which you can record tests (see Figure 2). It’s fairly simple to set up, and it does a good job recording every request sent through it. You can choose which kinds of files to include or exclude in the recording, which is great because you probably don’t need to record all .gif, .png, etc. files as separate requests. Set it up by right-clicking the Workbench and select Add à Non-test elements à HTTP Proxy Server. It can then be configured to group the samplers however you want, and add the instructions for which URL patterns to include or exclude. See Figure 2 for an example set up. Once it is set up, just click start and tell your web browser to direct traffic through the proxy. The samplers will be created and you are well on your way to having your dream test.<strong> </strong>
+JMeter provides a proxy server through which you can record tests (see Figure 2). Itï¿½s fairly simple to set up, and it does a good job recording every request sent through it. You can choose which kinds of files to include or exclude in the recording, which is great because you probably donï¿½t need to record all .gif, .png, etc. files as separate requests. Set it up by right-clicking the Workbench and select Add ï¿½ Non-test elements ï¿½ HTTP Proxy Server. It can then be configured to group the samplers however you want, and add the instructions for which URL patterns to include or exclude. See Figure 2 for an example set up. Once it is set up, just click start and tell your web browser to direct traffic through the proxy. The samplers will be created and you are well on your way to having your dream test.<strong> </strong>
 
 Because it uses a proxy, it cannot detect HTTPS traffic, so any secure requests will have to be created manually.
 
-<a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled2.png"><img class="alignnone size-full wp-image-52" title="Setting up a Proxy Server" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled2.png" alt="" width="602" height="382" /></a>
 
 Figure 2 - Set up a Proxy Server
 <h2>Scripting</h2>
-JMeter supports BeanShell scripting. I don’t know anything about it, so I can’t really rate its ability, but supposedly it exists.<strong> </strong>
+JMeter supports BeanShell scripting. I donï¿½t know anything about it, so I canï¿½t really rate its ability, but supposedly it exists.<strong> </strong>
 <h2>Reporting</h2>
-There are several reports that can be viewed within JMeter that provide a moderate level of detail. The data listed below can be recorded in a CSV file after each test. The built-in reports you can view in the GUI during test runs are lacking. Some of them don’t work. Some are useful (see Figure 3). The list below includes all information available in the CSV file:<strong> </strong>
+There are several reports that can be viewed within JMeter that provide a moderate level of detail. The data listed below can be recorded in a CSV file after each test. The built-in reports you can view in the GUI during test runs are lacking. Some of them donï¿½t work. Some are useful (see Figure 3). The list below includes all information available in the CSV file:<strong> </strong>
 <ul>
 <li>Start time (ms)</li>
 <li>Load time (ms)</li>
@@ -64,13 +62,11 @@ There are several reports that can be viewed within JMeter that provide a modera
 <li>Size in bytes</li>
 <li>Latency</li>
 </ul>
-<a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled3.png"><img class="alignnone size-full wp-image-53" title="Distribution Graph" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled3.png" alt="" width="617" height="392" /></a>
 
 Figure 3 - Distribution Graph
 <h3>Trend Reporting</h3>
-JMeter’s listeners do several things, including trend graphing (see Figure 4). In addition, the exported CSV file contains detailed information for each request, including the time that the request started and how long it took. From this, with some Excel magic, it would be possible to create a trend graph.
+JMeterï¿½s listeners do several things, including trend graphing (see Figure 4). In addition, the exported CSV file contains detailed information for each request, including the time that the request started and how long it took. From this, with some Excel magic, it would be possible to create a trend graph.
 
-<a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled4.png"><img class="alignnone size-full wp-image-54" title="Trend Graph" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled4.png" alt="" width="564" height="358" /></a>
 
 Figure 4 - Trend graph
 <h3>Integration</h3>
@@ -78,7 +74,6 @@ The only integration JMeter supports is exporting test results to CSV.
 <h2>Data Functions</h2>
 Using a CSV Data Set config element, you can easily create user defined variables using the information from a CSV file (See Figure 5). <strong> </strong>
 
-<a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled5.png"><img class="alignnone size-full wp-image-55" title="CSV Data Set Config" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled5.png" alt="" width="589" height="406" /></a>
 
 Figure 5. CSV Data Set Config
 
@@ -94,7 +89,7 @@ JMeter offers both constant-load performance testing and ramp-up stress testing.
 <h2>Bugs/Weirdness</h2>
 <ul>
 <li>Excel problem with JMeter CSV files: When saving test results to a csv, Excel likes to show big numbers (like the start time) in engineering notation (i.e., 1.24E10). If you open the file and save it, it will save it in engineering notation. When you open the file again, several significant digits will be lost, making the start time data essentially useless. This can be overcome by changing the stuff from a CSV to XLSX or by formatting the number as a regular number.</li>
-<li>You can’t save both the Test Plan and WorkBench at the same time. You have to save each separately. I also couldn’t get them to open together. I could open either the workbench or the test plan file, but if I tried to do both, the second one I opened would overwrite the first.</li>
+<li>You canï¿½t save both the Test Plan and WorkBench at the same time. You have to save each separately. I also couldnï¿½t get them to open together. I could open either the workbench or the test plan file, but if I tried to do both, the second one I opened would overwrite the first.</li>
 </ul>
 <h1 style="text-align: center;">Project Info</h1>
 <h2>History</h2>

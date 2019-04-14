@@ -4,7 +4,7 @@ title: 'LaTeX for Researchers, Part 1: Setting up'
 ---
 
 So, I've already tried to make it clear that
-[I really hate Word](http://www.schuetzler.net/blog/latex-icis-template/) for
+[I really hate Word](https://www.schuetzler.net/blog/latex-icis-template/) for
 creating academic documents. The biggest reason is that it frequently screws
 things up. So I use LaTeX, and I think you should too. Admittedly, it's not
 always possible. Some journals, conferences, or other venues require submission
@@ -129,7 +129,7 @@ Once you've created your `.tex` file, compile it with pdfLaTeX. I default in
 MiKTeX to using the pdfLaTeX+MakeIndex+BibTeX compilation, since that will
 usually run everything I need. Press the green button that looks like this:
 
-![Compile that sucker!](http://i.imgur.com/LBszbx7.png)
+![Compile that sucker!](https://i.imgur.com/LBszbx7.png)
 
 Assuming that worked, you're done! You have successfully compiled your first
 LaTeX article. And you have everything you need to begin creating a document of
@@ -139,4 +139,4 @@ the section numbers, or the indentation of paragraphs, or the date in the title,
 that's fine. All of that can be changed later, independent of the actual text
 you write. So get started!
 
-[Continue on to Part 2: Citations](http://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
+[Continue on to Part 2: Citations](https://www.schuetzler.net/blog/latex-for-researchers-pt-2/)

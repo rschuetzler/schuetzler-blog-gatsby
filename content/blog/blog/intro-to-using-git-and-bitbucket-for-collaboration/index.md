@@ -43,7 +43,7 @@ for the repository. Don't use the shared Dropbox folder. We don't want
 multiple people committing to the same copy of the repository. That will cause
 problems.
 3. Get the URL for the repository from Bitbucket
-![Repository URL](http://i.imgur.com/lWycXqt.png)
+![Repository URL](https://i.imgur.com/lWycXqt.png)
 3. Type the command `git clone repoURL [FOLDER NAME]`, replacing [FOLDER NAME]
 with the name you want to directory to have.
 5. Add the repository to Github by opening the Github program and dragging the
@@ -62,11 +62,11 @@ be working on.
 1. Open Github for Windows and double-click the repository.
 2. Make note of the sync status in the upper-right corner (red box). Also
 double-check the branch you are current on (blue box).
-![Starting up](http://i.imgur.com/Svaoeyl.png)
+![Starting up](https://i.imgur.com/Svaoeyl.png)
 
 3. If your repository is out of date, meaning more updates have been posted to
 Bitbucket, you will see a blue down arrow next to the sync button. Press sync to
-pull down all changes.  ![Repo out of date](http://i.imgur.com/nj1WRAG.png)
+pull down all changes.  ![Repo out of date](https://i.imgur.com/nj1WRAG.png)
 
 4. It's definitely best to not do your main work on the Master branch. This will
 be the definitive version, but while you're working you can keep drafts in
@@ -91,7 +91,7 @@ project.
 working. Click the little arrow to the left of the filename to view the
 changes. Additions are highlighted in green, while deletions are highlighted in
 red. Changes to a line will show as the deletion of the old version and the
-addition of the new.  ![Committing](http://i.imgur.com/f8qwB8o.png)
+addition of the new.  ![Committing](https://i.imgur.com/f8qwB8o.png)
 4. Select the files that you would like to commit. It's best to combine changes
 that are doing the same thing to one commit, but separate unrelated changes to
 multiple files into several commits.  \t1. If you've made a change you want to
@@ -127,13 +127,13 @@ right.
 else has made are synced to your computer.
 4. Open the manage/merge menu from the branches menu.
 
-![Manage merge](http://i.imgur.com/2Iy6UuF.png)
+![Manage merge](https://i.imgur.com/2Iy6UuF.png)
 
 5. Drag your branch to the first box in the "merge" area at the bottom.
 6. Drag the master branch to the second box. master should appear in the blue
 box to the right.
 
-![Merging](http://i.imgur.com/o5NpTt8.png)
+![Merging](https://i.imgur.com/o5NpTt8.png)
 
 7. Click "merge" to merge your changes.
 8. Press the sync button to push your changes to the Bitbucket repository so
