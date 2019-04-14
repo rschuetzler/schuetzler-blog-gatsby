@@ -3,7 +3,7 @@ date: '2010-10-02'
 title: How to install Windows 7 from a Flash Drive
 ---
 
-<p>I've got a netbook and a DVD image of Windows 7. I don't have a disc drive for the netbook, so I have to figure out a way to get Windows 7 onto a USB drive to install from. Thanks to <a href="http://www.thinkcomputers.org/install-windows-7-from-a-usb-flash-drive/">this site</a>, I was able to get it.</p>
+<p>I've got a netbook and a DVD image of Windows 7. I don't have a disc drive for the netbook, so I have to figure out a way to get Windows 7 onto a USB drive to install from. Thanks to <a href="https://www.thinkcomputers.org/install-windows-7-from-a-usb-flash-drive/">this site</a>, I was able to get it.</p>
 <ol>
 <li>You'll need a flash drive that's at least 4 GB. You don't need one any bigger than that, but if that's all you have, it will work.</li>
 <li>If you have a CD, insert it into the computer. If not, you'll need to mount the ISO image. If you don't know how to do this, you can look it up. I use VirtualCloneDrive, but Daemon tools works too.</li>

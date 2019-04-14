@@ -37,7 +37,7 @@ citations don't break in LaTeX. Because it's all in plain text, there's
 nothing to break.
 5. It's just beautiful. Because LaTeX is a typesetting engine and not a word
 processor, it can do pretty things with your text like kerning (relevant
-[xkcd](http://xkcd.com/1015/)) and figure placement in much better ways than
+[xkcd](https://xkcd.com/1015/)) and figure placement in much better ways than
 Word.
 6. Simple switching between formats. If you've set up your document correctly,
 you can switch between formats for different journals or publications
@@ -78,7 +78,7 @@ them in future posts.
 ## Step 1: Downloading LaTeX
 
 The first thing you will need to get is a LaTeX distribution. The most
-common are [MiKTeX](http://miktex.org/download) (for Windows)
+common are [MiKTeX](https://miktex.org/download) (for Windows)
 [TeX Live](https://www.tug.org/texlive/) (for Windows and *nix), and
 [MacTeX](https://www.tug.org/mactex/) (for Mac). Each of these comes with a
 package manager that will install packages that you need on the fly. I highly

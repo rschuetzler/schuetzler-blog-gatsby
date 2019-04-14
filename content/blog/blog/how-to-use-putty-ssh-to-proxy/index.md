@@ -5,7 +5,7 @@ title: How to use PuTTY & SSH to proxy
 
 <p>Worried that network monitoring at school or work is going to reveal passwords? How much do you trust the wireless Internet at the airport? If the network is unencrypted (and possibly even if it is), anyone could be watching your Internet browsing and maybe pick up a password or two. The following instructions will help you set up PuTTY and SSH on a Windows computer to secure traffic out of wherever you are.</p>
 
-<p>First, you'll have to have a computer you can SSH into. I'm going to assume you already have that going for you. Next, you need to download <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a>. PuTTY is a free Telnet/SSH client for Windows. Once you have PuTTY downloaded, start it up. Then:</p>
+<p>First, you'll have to have a computer you can SSH into. I'm going to assume you already have that going for you. Next, you need to download <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a>. PuTTY is a free Telnet/SSH client for Windows. Once you have PuTTY downloaded, start it up. Then:</p>
 <ol>
 <li>Enter the Host name and select SSH as the connection type. The port should be 22 unless you've done something special to your SSH server</li>
 <li>Go to Connection &gt;&gt; SSH &gt;&gt; Tunnels</li>
@@ -32,7 +32,7 @@ title: How to use PuTTY & SSH to proxy
 
 <p>Google Chrome is an excellent browser, but unfortunately you cannot configure a proxy server in the same way as Firefox. The settings do not exist. Fortunately developer Mhd Hejazi has created Proxy Switchy!, a Chrome extension that allows easy access to changing proxy settings.</p>
 <ol>
-<li>Download and install <a href="https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj">Proxy Switchy!</a> from the Chrome extensions website.</li>
+<li>Download and installï¿½<a href="https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj">Proxy Switchy!</a> from the Chrome extensions website.</li>
 <li>As soon as Proxy Switchy installs, it will pop up with a window where you can fill in your proxy server information</li>
 <li>Name the profile whatever you like. We'll call it "Home Proxy" just for fun.</li>
 <li>Leave all spaces blank except SOCKS Host and Port. Enter 127.0.0.1 for the host and 8080 (or whatever you chose above) for the port.</li>

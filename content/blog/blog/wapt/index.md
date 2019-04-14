@@ -5,7 +5,7 @@ title: 'QA Tool Review: WAPT 5.0'
 
 Okay, I decided to get the last of the QA tool reviews out on the site so I don't have to think about them any more. Here it is:
 <h2 style="text-align: center;">Description</h2>
-WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the <a href="http://www.loadtestingtool.com/download.shtml">company website</a> that allows full functionality with the restriction of 20 virtual users.
+WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the <a href="https://www.loadtestingtool.com/download.shtml">company website</a> that allows full functionality with the restriction of 20 virtual users.
 <h2 style="text-align: center;">Overview</h2>
 <h3>Pros</h3>
 <ul>
@@ -84,9 +84,9 @@ The reports can be saved as html files which includes some summary data and basi
 <li>Active users</li>
 <li>Total pages, hits, and sessions</li>
 </ul>
-[caption id="attachment_85" align="alignnone" width="588" caption="WAPT Report Graph (HTML)"]<a href="https://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png"><img class="size-full wp-image-85 " title="WAPT Report Graph (HTML)" src="http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png" alt="" width="588" height="416" /></a>[/caption]
+[caption id="attachment_85" align="alignnone" width="588" caption="WAPT Report Graph (HTML)"]<a href="https://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png"><img class="size-full wp-image-85 " title="WAPT Report Graph (HTML)" src="https://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png" alt="" width="588" height="416" /></a>[/caption]
 
-[caption id="attachment_86" align="alignnone" width="560" caption="WAPT Report Table"]<a href="https://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png"><img class="size-full wp-image-86   " title="WAPT Report Table" src="http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png" alt="" width="560" height="397" /></a>[/caption]
+[caption id="attachment_86" align="alignnone" width="560" caption="WAPT Report Table"]<a href="https://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png"><img class="size-full wp-image-86   " title="WAPT Report Table" src="https://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png" alt="" width="560" height="397" /></a>[/caption]
 <h4>Trend Reporting</h4>
 WAPT�s graphs are great at showing the trend throughout the test. Each metric is measured for each time period and the graph shows the results live while the test is running. These results are also available in the CSV file exported.
 <h4>Integration</h4>
@@ -104,12 +104,12 @@ Fairly pretty UI. Bubbly icons look a little �90s, but it�s not bad.<strong>
 <h3>Performance v. Stress Testing</h3>
 WAPT supports both static-load performance testing and ramp-up stress testing. It also allows you to select whether you want the tests to run a certain number of times or just for a certain time frame. The screenshot below (Figure 3) shows the setup screen where you select how many VUs will be in the test, the ramp-up time (if there is any), and the final load. WAPT also provides an option for �Periodic� load, which alternates between two levels on a schedule you set.
 
-[caption id="attachment_87" align="alignnone" width="300" caption="WAPT Load test setup"]<a href="https://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png"><img class="size-medium wp-image-87 " title="WAPT Load test setup" src="http://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png" alt="" width="300" height="256" /></a>[/caption]
+[caption id="attachment_87" align="alignnone" width="300" caption="WAPT Load test setup"]<a href="https://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png"><img class="size-medium wp-image-87 " title="WAPT Load test setup" src="https://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png" alt="" width="300" height="256" /></a>[/caption]
 <h3>Bugs/Weirdness</h3>
 <ul>
 <li>The built-in report graphs are great, but they use both sides of the y-axis for different scales (Figure 4). There is no indication which line is associated with which scale. You have to turn items off and back on to be able to figure out what goes where.<strong> </strong></li>
 </ul>
-[caption id="attachment_88" align="alignnone" width="530" caption="WAPT report graph"]<a href="https://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png"><img class="size-full wp-image-88  " title="WAPT report graph" src="http://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png" alt="" width="530" height="482" /></a>[/caption]
+[caption id="attachment_88" align="alignnone" width="530" caption="WAPT report graph"]<a href="https://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png"><img class="size-full wp-image-88  " title="WAPT report graph" src="https://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png" alt="" width="530" height="482" /></a>[/caption]
 <h2 style="text-align: center;">Project Info</h2>
 <h3>History</h3>
 SoftLogica is based out of Novosibirsk, Russia. Their website appears very out of date, with the most recent press release from 2007, and the newest newsletter from 2006.
@@ -118,13 +118,13 @@ New major versions of WAPT are released on average every two years. The newest v
 <h3>Active Forums</h3>
 <h4>Official Forums</h4>
 <ul>
-<li><a href="http://www.loadtestingtool.com/forum/index.php">Official WAPT Forum</a></li>
+<li><a href="https://www.loadtestingtool.com/forum/index.php">Official WAPT Forum</a></li>
 </ul>
 <h4>Unofficial Forums</h4>
 <ul>
 <li>N/A</li>
 </ul>
 <h3>Company URL</h3>
-<a href="http://www.softlogica.com/">http://www.softlogica.com/</a><strong> </strong>
+<a href="https://www.softlogica.com/">https://www.softlogica.com/</a><strong> </strong>
 
 <!--EndFragment-->

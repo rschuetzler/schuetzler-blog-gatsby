@@ -20,7 +20,7 @@ I go back to the document and figure out what's going on. I'm no longer at the
 mercy of Word's formatter.
 
 I'm currently preparing a few documents for submission to the
-[International Conference on Information Systems](http://icis2014.aisnet.org/)
+[International Conference on Information Systems](https://icis2014.aisnet.org/)
 (ICIS). The good folks at ICIS have allowed PDF submissions, which is
 unfortunately not true for some others. Unfortunately, they only provide the
 document specifications in a Word template. So I took this as an opportunity to

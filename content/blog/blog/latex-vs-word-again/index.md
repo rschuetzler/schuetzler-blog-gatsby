@@ -5,11 +5,11 @@ title: LaTeX vs Word (again)
 
 A recently published article in PLoS ONE, entitled "An Efficiency Comparison of Document
 Preparation Systems Used in Academic Research and Development"
-([link here](http://www.plosone.org/article/info:doi/10.1371/journal.pone.0115069))
+([link here](https://www.plosone.org/article/info:doi/10.1371/journal.pone.0115069))
 lit the world on fire. Okay, not really. In fact, most people, including researchers and
 even LaTeX enthusiasts have probably not read it. And that's fine. Because it's not very
 good. And I'm
-[not the only one who thinks so](http://serialmentor.com/blog/2014/12/27/post-publication-review-of-the-plos-one-paper-comparing-ms-word-and-latex-how-not-to-compare-document-preparation).
+[not the only one who thinks so](https://serialmentor.com/blog/2014/12/27/post-publication-review-of-the-plos-one-paper-comparing-ms-word-and-latex-how-not-to-compare-document-preparation).
 
 The article focuses on the differences in "efficiency" of LaTeX and Word when writing
 academic research articles. Authors Knauff and Nejasmic apparently have some sort of bone
@@ -32,7 +32,7 @@ My immediate thought on reading about the task was to question how many hours of
 are spent duplicating an existing document. Sure, I'll freely admit that LaTeX is not as
 easy as Word when it comes to matching formatting rules. I spent several hours last spring
 creating a LaTeX template for the ICIS conference
-([here](http://www.schuetzler.net/blog/latex-icis-template/)), and it was at times
+([here](https://www.schuetzler.net/blog/latex-icis-template/)), and it was at times
 frustrating. Quickly and easily matching arbitrary formatting requirements is not where
 LaTeX shines.
 
@@ -42,9 +42,9 @@ we think of writing a paper. Document organization, references, statistics, coll
 version control (at least when collaborating, but even if not), and who knows what else
 are all much more important when creating a research paper. These (yes, even statistics
 with knitr) are where LaTeX and its magic shine through. I've
-[written](http://www.schuetzler.net/blog/intro-to-using-git-and-bitbucket-for-collaboration/)
-[multiple](http://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
-[times](http://www.schuetzler.net/blog/latex-for-researchers-pt-2/) about the learning
+[written](https://www.schuetzler.net/blog/intro-to-using-git-and-bitbucket-for-collaboration/)
+[multiple](https://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
+[times](https://www.schuetzler.net/blog/latex-for-researchers-pt-2/) about the learning
 curve of LaTeX, but throughout it all I will continue to sing its praises, though maybe
 it's just cognitive dissonance (more on that in a bit).
 

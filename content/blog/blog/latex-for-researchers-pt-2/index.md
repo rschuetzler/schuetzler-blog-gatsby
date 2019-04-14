@@ -5,7 +5,7 @@ title: 'LaTeX for Researchers, Part 2: Citations'
 
 ## Review
 
-In [Part 1](http://www.schuetzler.net/blog/latex-for-researchers-pt-1/) we
+In [Part 1](https://www.schuetzler.net/blog/latex-for-researchers-pt-1/) we
 covered the very basics of creating a document. With that you have basically
 everything you need to start writing your paper. Here's a quick review of the
 basic commands:
@@ -124,7 +124,7 @@ right now.
 And that's it. `biblatex` has a bunch of options to customize the way your
 citations and references section look, so if you want to tweak things to look
 just right, take a look at the
-[biblatex documentation](http://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf).
+[biblatex documentation](https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf).
 Otherwise, let's move on to how to actually cite things in our paper.
 
 ### Citing Things in .tex
@@ -179,4 +179,4 @@ Well, I think that about covers it. You now have the tools you need to
 automatically generate a bibliography as you are writing your master works. Next
 time we'll cover how to insert figures and, if you're lucky, tables.
 
-[Continue to Part 3: Figures](http://www.schuetzler.net/blog/latex-for-researchers-pt-3-figures/)
+[Continue to Part 3: Figures](https://www.schuetzler.net/blog/latex-for-researchers-pt-3-figures/)

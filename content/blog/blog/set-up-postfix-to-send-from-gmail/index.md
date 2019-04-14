@@ -7,10 +7,10 @@ Alternate title: How to send 9,000 emails from a Gmail address
 
 To preface this, I want to say that I am currently in charge of online activity for an honor society at school. As part of those responsibilities, I needed to send emails to over 9,000 prospective members to invite them to join the organization. We use Gmail addresses for our organizations email, but Google shuts off an email address after sending about 500 emails, and it shuts off an IP address after you send about 1,500 (using three different accounts).
 
-To solve this problem, I installed an SMTP server (<a href="http://www.postfix.org/">Postfix</a>) on my computer at home so I could send that many emails. I couldn't find any free email provider who allows that many emails. Here are the steps to create the server:<!--more-->
+To solve this problem, I installed an SMTP server (<a href="https://www.postfix.org/">Postfix</a>) on my computer at home so I could send that many emails. I couldn't find any free email provider who allows that many emails. Here are the steps to create the server:<!--more-->
 <ol>
 <li>Create an MX record with your DNS</li>
-<li>I used this <a href="http://jonsview.com/2009/03/26/how-to-setup-email-services-on-ubuntu-using-postfix-tlssasl-and-dovecot">tutorial</a> to set up Postfix and <a href="http://www.dovecot.org/">Dovecot</a> for SMTP and IMAP. It provides a great walkthrough for setting up a secured SMTP server (a must unless you want any Joe Shmoe to send spam through your computer).</li>
+<li>I used this <a href="https://jonsview.com/2009/03/26/how-to-setup-email-services-on-ubuntu-using-postfix-tlssasl-and-dovecot">tutorial</a> to set up Postfix and <a href="https://www.dovecot.org/">Dovecot</a> for SMTP and IMAP. It provides a great walkthrough for setting up a secured SMTP server (a must unless you want any Joe Shmoe to send spam through your computer).</li>
 <li>Open up ports 25 (SMTP), 143 &amp; 993 (IMAP) in whatever network devices you need to</li>
 </ol>
 Once you have that set up, it's a piece of cake to set up Outlook or your favorite mail client to send mail through your SMTP server.

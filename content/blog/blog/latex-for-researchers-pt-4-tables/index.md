@@ -5,9 +5,9 @@ title: 'LaTeX for Researchers, Part 4: Tables'
 
 So far we've covered some of the basics of creating a functional document in LaTeX:
 
-* [Installation and Formatting](http://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
-* [Citations](http://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
-* [Figures](http://www.schuetzler.net/blog/latex-for-researchers-pt-3-figures/)
+* [Installation and Formatting](https://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
+* [Citations](https://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
+* [Figures](https://www.schuetzler.net/blog/latex-for-researchers-pt-3-figures/)
 
 One of the last true essentials for social science researchers like me is
 tables. Maybe somewhere down the line I'll have a need for LaTeX's awesome
@@ -17,13 +17,13 @@ Now, tables is definitely the part of LaTeX that I have the least experience
 creating. Not because I don't use them, but because I rarely create them
 myself. The purpose of a table in an academic paper is usually to contain
 correlation coefficients or something of that sort. If you use the awesome
-statistical programming language [R](http://www.r-project.org/) to do your
+statistical programming language [R](https://www.r-project.org/) to do your
 stats, then there are already a few good ways to generate LaTeX tables. The R
-packages [xtable](http://cran.r-project.org/web/packages/xtable/index.html) and
-[Hmisc](http://cran.r-project.org/web/packages/Hmisc/index.html) have functions
+packages [xtable](https://cran.r-project.org/web/packages/xtable/index.html) and
+[Hmisc](https://cran.r-project.org/web/packages/Hmisc/index.html) have functions
 to create LaTeX tables for you that you can then paste or import directly into
 your document. The
-[stargazer](http://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf)
+[stargazer](https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf)
 package does as well, though it's a bit more limited in what types of data it
 will table-ify for you. Nonetheless, if you have ever manually typed correlation
 matrices into a paper, you might want to look into using R and these packages to

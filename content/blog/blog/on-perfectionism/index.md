@@ -3,7 +3,7 @@ date: '2013-04-29'
 title: On Perfectionism
 ---
 
-<p>&quot;<a href="http://www.theworldsbestever.com/2013/04/17/david-foster-wallace-on-ambition/">If your fidelity to perfection is too high, you never do anything</a>.&quot; Those words hit me hard when I read them last week. This is a constant struggle I&#039;ve had for the last couple years. In my head I have a perfect vision of a completed research project or paper. I knew, though, that there was no chance that the paper I wrote would be nearly as perfect as the one in my head, so it was easier to just leave it there as a perfect dream than to do deal with my horrible writing or completely cobbled-together knowledge of statistics.</p>
+<p>&quot;<a href="https://www.theworldsbestever.com/2013/04/17/david-foster-wallace-on-ambition/">If your fidelity to perfection is too high, you never do anything</a>.&quot; Those words hit me hard when I read them last week. This is a constant struggle I&#039;ve had for the last couple years. In my head I have a perfect vision of a completed research project or paper. I knew, though, that there was no chance that the paper I wrote would be nearly as perfect as the one in my head, so it was easier to just leave it there as a perfect dream than to do deal with my horrible writing or completely cobbled-together knowledge of statistics.</p>
 
 <p>The same is true of my blog posts, and so I never wrote them. I&#039;d have a half-baked idea for a post that was magically transformed into an eloquent, powerful, and moving post that would influence the lives of millions. Yeah, that&#039;s not gonna happen. But that&#039;s what my mind would do. So rather than be a mediocre blogger in real life, I was more content (but not really) to be inspirational in my head.</p>
 

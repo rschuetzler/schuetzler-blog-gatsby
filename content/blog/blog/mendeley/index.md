@@ -3,7 +3,7 @@ date: '2011-03-23'
 title: Mendeley
 ---
 
-<p>In my quest to find the perfect tool to manage my ever-expanding library of PDFs, I discovered a tool called <a href="http://www.mendeley.com/" target="_blank">Mendeley</a>. Here's a quick rundown of what Mendeley does for me:</p>
+<p>In my quest to find the perfect tool to manage my ever-expanding library of PDFs, I discovered a tool calledï¿½<a hrefhttps:p://www.mendeley.com/" target="_blank">Mendeley</a>. Here's a quick rundown of what Mendeley does for me:</p>
 <ul>
 <li>Manages references - this is similar to EndNote. You can put references into folders based on topic, class, project, paper, or whatever you want.</li>
 <li>Manages PDFs - I have it set up to move all my PDFs to one folder and rename them to Author - Year - Title. I then use Dropbox to sync that folder to all my computers so I can always have access to my PDFs when I want them. <strong>Edit</strong>: Mendeley provides a sync service, but the free version is limited to 500 MB of individual space and 500 MB free space. Since I have the files in a Dropbox folder anyway, I just use that.</li>

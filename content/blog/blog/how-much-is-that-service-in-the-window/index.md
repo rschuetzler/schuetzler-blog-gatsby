@@ -65,7 +65,7 @@ came up with:
 | Github      |           7 |      na | https://github.com/pricing                        |
 | Adobe       |       10-40 | 120-480 | https://creative.adobe.com/plans                  |
 | Crashplan   |           6 |      60 | https://store.code42.com/store/                   |
-| Audible     |          15 |      na | http://www.audible.com/pap                        |
+| Audible     |          15 |      na | https://www.audible.com/pap                        |
 
 And this is nowhere near a comprehensive list.  If I were to pay for all of the
 services I would like to pay for, I'd be broke.  And I would love to pay to
@@ -94,7 +94,7 @@ with a lot of fans.
 
 Pushbullet isn't the first service to begin charging for things that were once
 free. The New York Times has fought to find a way to
-[charge users to read the news](http://thebillfold.com/2012/11/paying-for-things-that-used-to-be-free/),
+[charge users to read the news](https://thebillfold.com/2012/11/paying-for-things-that-used-to-be-free/),
 on an Internet where
 [information wants to be free](https://en.wikipedia.org/wiki/Information_wants_to_be_free).
 But Pushbullet hit hard because not only were they charging for something that

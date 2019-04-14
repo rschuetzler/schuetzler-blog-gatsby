@@ -13,6 +13,6 @@ title: Prepping for 01-01
 <li>4x weekly of 30+ minutes exercise (kinda already started this one)</li>
 </ul>
 </p>
-<p>There may be more to come, but this is the starter list. One of my biggest goals in number one there. I read a lot. And I mean a whole lot. Blogs, <a href="http://news.ycombinator.org">Hacker News</a>, <a href="http://www.lifehacker.com">Lifehacker</a>, and things of the sort. That needs to get under control, and I need to start actually writing things, or doing something rather than just sitting around reading. I need a project that I can be passionate about and <strong>want</strong> to work on in my spare time. Some of those come and go, but none have stuck.</p>
+<p>There may be more to come, but this is the starter list. One of my biggest goals in number one there. I read a lot. And I mean a whole lot. Blogs, <a href="https://news.ycombinator.org">Hacker News</a>, <a href="https://www.lifehacker.com">Lifehacker</a>, and things of the sort. That needs to get under control, and I need to start actually writing things, or doing something rather than just sitting around reading. I need a project that I can be passionate about and <strong>want</strong> to work on in my spare time. Some of those come and go, but none have stuck.</p>
 
 <p>Anyway, that's how I hope to start the new year. Any other ideas for New Year's Resolutions besides the usual?</p>

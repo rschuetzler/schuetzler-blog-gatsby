@@ -3,11 +3,11 @@ date: '2009-06-17'
 title: Free Pandora Desktop with Mozilla Prism
 ---
 
-So, I would say I'm kind of obsessive about which programs I keep running on my computer. When I started using <a href="http://www.pandora.com/">Pandora Radio</a> at work last week, I got kinda frustrated that I always had to keep one window of Firefox open. Always. I would often accidentally close the window just because that's what I do.
+So, I would say I'm kind of obsessive about which programs I keep running on my computer. When I started using <a href="https://www.pandora.com/">Pandora Radio</a> at work last week, I got kinda frustrated that I always had to keep one window of Firefox open. Always. I would often accidentally close the window just because that's what I do.
 
-Naturally, the first thing I did was look for a Pandora desktop application. I'm not fortunate enough to have an iPhone or fancy smartphone that has a Pandora application I can run. Pandora has a desktop application, but it is only available for $36/year with their <a href="http://pandora.com/pandora_one">Pandora One</a> service. I considered it, but I don't know if I'll use the service after this summer, so I wasn't ready to shell out money for it.<!--more-->
+Naturally, the first thing I did was look for a Pandora desktop application. I'm not fortunate enough to have an iPhone or fancy smartphone that has a Pandora application I can run. Pandora has a desktop application, but it is only available for $36/year with their <a href="https://pandora.com/pandora_one">Pandora One</a> service. I considered it, but I don't know if I'll use the service after this summer, so I wasn't ready to shell out money for it.<!--more-->
 
-Then I discovered <a href="http://labs.mozilla.com/projects/prism/">Mozilla Prism</a>. Prism is a Firefox add-on that allows you to take any web application (or any website, really) and kind of convert it into a desktop application. You can create a shortcut for the start menu or desktop, and even minimize the window to the Windows system tray (my favorite feature).
+Then I discovered <a href="https://labs.mozilla.com/projects/prism/">Mozilla Prism</a>. Prism is a Firefox add-on that allows you to take any web application (or any website, really) and kind of convert it into a desktop application. You can create a shortcut for the start menu or desktop, and even minimize the window to the Windows system tray (my favorite feature).
 
 So here's how you do it:
 <ol>
@@ -21,6 +21,6 @@ I've only been using it for a day now, but it's been great. I can minimize it to
 ----
 Update (6/28/09)!
 
-I have since discovered a few simpler options for my problem. First I found <a href="http://getopenpandora.appspot.com/">Open Pandora</a>, which is an open source desktop solution doing the exact same thing I did with Prism. Also, I am running Windows 7, and I found out that Pandora offers a free <a href="http://www.pandora.com/on-windowsgadget">Flash sidebar gadget</a>.
+I have since discovered a few simpler options for my problem. First I found <a href="https://getopenpandora.appspot.com/">Open Pandora</a>, which is an open source desktop solution doing the exact same thing I did with Prism. Also, I am running Windows 7, and I found out that Pandora offers a free <a href="https://www.pandora.com/on-windowsgadget">Flash sidebar gadget</a>.
 
-Of the three I definitely prefer the sidebar gadget. You have to be running the 32-bit sidebar since Flash isn't available in 64-bit yet, but that's a quick fix (if it's a problem at all. <a href="http://www.bgreco.net/gadgets/pandora/64.php">Here</a>'s one way to do it for you Vista-ites.). Between Open Pandora &amp; Prism, there really isn't much of a difference. Open Pandora is easier since you just have to download one application and you've got it, but Prism is cooler because it can also be used for other things. YMMV
+Of the three I definitely prefer the sidebar gadget. You have to be running the 32-bit sidebar since Flash isn't available in 64-bit yet, but that's a quick fix (if it's a problem at all. <a href="https://www.bgreco.net/gadgets/pandora/64.php">Here</a>'s one way to do it for you Vista-ites.). Between Open Pandora &amp; Prism, there really isn't much of a difference. Open Pandora is easier since you just have to download one application and you've got it, but Prism is cooler because it can also be used for other things. YMMV

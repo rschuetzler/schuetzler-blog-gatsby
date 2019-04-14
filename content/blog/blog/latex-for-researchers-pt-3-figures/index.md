@@ -6,8 +6,8 @@ title: 'LaTeX for Researchers, Part 3: Figures'
 If you're just joining us, it's probably best to start out with my first two
 posts:
 
-* [Setting Up](http://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
-* [Citations](http://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
+* [Setting Up](https://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
+* [Citations](https://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
 
 Now that we've covered how to do create a document and how to add citations, the
 next major items we need to be able to put in a research manuscript are
@@ -60,7 +60,7 @@ Now we're all set up to add figures to our document. We just need some figures
 to add. LaTeX is pretty good about image formats, but I pretty much always use
 PNG for my figures and screenshots, so that's what we'll use now. For the
 example I'll use
-[this smiley face](http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/640px-Smiley.svg.png)
+[this smiley face](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/640px-Smiley.svg.png)
 that I've saved to my figs folder and named `smiley.png`. When I want to include
 it in my document, I do so with the following code:
 
@@ -70,7 +70,7 @@ Let's deconstruct what exactly we have here. First off, we start a `figure`
 environment. This environment is a floating environment, so it takes the
 arguments associated with floats. The arguments I've chosed to include are
 `ht`. The
-[LaTeX wikibook page on figures](http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions)
+[LaTeX wikibook page on figures](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions)
 has an excellent explanation of what all possible arguments are for floats. Like
 I mentioned above, LaTeX wants your document to look nice. To do that, it has to
 have some freedom in where to place your figures. These arguments tell LaTeX
@@ -155,7 +155,7 @@ And now you've got it. You have everything you need to make figures show up in
 your documents. It may not be as easy as adding them in Word, but it's
 guaranteed to break a whole lot less often. If you want to do more, you can
 check out the LaTeX wiki's guides to
-[importing graphics](http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics) and
-[managing floats](http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions).
+[importing graphics](https://en.wikibooks.org/wiki/LaTeX/Importing_Graphics) and
+[managing floats](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions).
 Alternatively, leave a comment and I'd be happy to look into it. I'm always up
 for learning new things.

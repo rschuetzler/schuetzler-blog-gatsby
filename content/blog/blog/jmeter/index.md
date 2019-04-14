@@ -4,7 +4,7 @@ title: 'QA Tool Review: JMeter'
 ---
 
 <h1 style="text-align: center;"><span style="font-weight: normal;">Description</span></h1>
-<a href="http://jakarta.apache.org/jmeter/">Apache JMeter</a> is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
+<a href="https://jakarta.apache.org/jmeter/">Apache JMeter</a> is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
 
 Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load.
 <h1 style="text-align: center;">Overview</h1>
@@ -81,7 +81,7 @@ Figure 5. CSV Data Set Config
 <h2>Load Generation / Distributed Load Generation</h2>
 JMeter offers distributed testing. I have not tested it, but from reviews it appears that in order to use multiple load generation tools, the GUI must be used. However, it is possible to run tests on one computer without the GUI and just record the results to a file. This minimizes system resource use and allows you to generate a higher load from one machine.<strong></strong>
 <h2>Documentation</h2>
-The documentation for JMeter is extensive. The <a href="http://jakarta.apache.org/jmeter/">JMeter website</a> has a ton of documentation, great tutorials, a great user manual, and clear Javadocs. There are also many other website with great tutorials and documentation for getting started with JMeter.<strong></strong>
+The documentation for JMeter is extensive. The <a href="https://jakarta.apache.org/jmeter/">JMeter website</a> has a ton of documentation, great tutorials, a great user manual, and clear Javadocs. There are also many other website with great tutorials and documentation for getting started with JMeter.<strong></strong>
 <h2>User Interface</h2>
 Typical Java Swing GUI. Ugly but functional.<strong></strong>
 <h2>Performance v. Stress Testing</h2>
@@ -97,16 +97,16 @@ Stefano Mazzocchi of the Apache Software Foundation was the original developer o
 <h2>Frequency of Releases</h2>
 JMeter has a new release approximately 1-2 times per year. Most of these releases are minor bug-fix versions. The most recent version (2.3.4) was released in June, 2009.
 
-<a href="http://www.ohloh.net/p/jmeter">Ohloh.net</a> says that JMeter is experiencing decreasing year-over-year development activity.
+<a href="https://www.ohloh.net/p/jmeter">Ohloh.net</a> says that JMeter is experiencing decreasing year-over-year development activity.
 <h2>Active Forums</h2>
 <h3>Official Forums</h3>
 <ul>
-<li><a href="http://mail-archives.apache.org/mod_mbox/jakarta-jmeter-user/">JMeter user mailing list archive</a></li>
+<li><a href="https://mail-archives.apache.org/mod_mbox/jakarta-jmeter-user/">JMeter user mailing list archive</a></li>
 </ul>
 <h3>Unofficial Forums</h3>
 <ul>
-<li><a href="http://www.nabble.com/JMeter-f296.html">Nabble JMeter Forum</a></li>
-<li><a href="http://www.sqaforums.com/postlist.php?Board=UBB54">SQA Forums: JMeter</a></li>
+<li><a href="https://www.nabble.com/JMeter-f296.html">Nabble JMeter Forum</a></li>
+<li><a href="https://www.sqaforums.com/postlist.php?Board=UBB54">SQA Forums: JMeter</a></li>
 </ul>
 <h2>Company URL</h2>
-<a href="http://jakarta.apache.org">http://jakarta.apache.org</a><strong></strong>
+<a href="https://jakarta.apache.org">https://jakarta.apache.org</a><strong></strong>
