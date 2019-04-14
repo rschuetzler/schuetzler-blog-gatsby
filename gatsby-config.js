@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: `Gatsby Starter Blog`,
+		title: `Schuetzler.net`,
 		author: `Ryan Schuetzler`,
 		description: `A collection of my thoughts, tutorials, and other stuff.`,
 		siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -13,7 +13,7 @@ module.exports = {
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				path: `${__dirname}/content/blog`,
-				name: `blog`,
+				name: `blog`
 			}
 		},
 		{
