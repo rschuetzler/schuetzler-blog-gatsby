@@ -34,6 +34,15 @@ exports.createPages = ({ graphql, actions }) => {
 		// Create blog posts pages.
 		const posts = result.data.allMarkdownRemark.edges;
 
+		createPaginatedPages({
+			edges: posts,
+			createPage: createPage,
+			pageTemplate: 'src/templates/archive.js',
+			pageLength: 10, // This is optional and defaults to 10 if not used
+			pathPrefix: 'archive', // This is optional and defaults to an empty string if not used
+			buildPath: (index, pathPrefix) => index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`
+		});
+
 		posts.forEach((post, index) => {
 			const previous = index === posts.length - 1 ? null : posts[index + 1].node;
 			const next = index === 0 ? null : posts[index - 1].node;
