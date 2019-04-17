@@ -1,6 +1,6 @@
 ---
-date: '2014-04-24'
-title: 'LaTeX for Researchers, Part 1: Setting up'
+date: "2014-04-24"
+title: "LaTeX for Researchers, Part 1: Setting up"
 ---
 
 So, I've already tried to make it clear that
@@ -24,7 +24,7 @@ Here are just a couple of the advantages of LaTeX:
    documents. You can create versions of your document as you go along, which
    allows you to keep old versions around without having 65 copies of the draft
    in your working directory.
-<!-- more -->
+   <!-- more -->
 3. Table and Figure cross-references. Oh boy is this a great one. Word tries to
    do this, but inevitably when you move things around, the cross-references
    will break. With LaTeX you can simply use the `\ref{}` command to reference a
@@ -79,7 +79,7 @@ them in future posts.
 
 The first thing you will need to get is a LaTeX distribution. The most
 common are [MiKTeX](http://miktex.org/download) (for Windows)
-[TeX Live](https://www.tug.org/texlive/) (for Windows and *nix), and
+[TeX Live](https://www.tug.org/texlive/) (for Windows and \*nix), and
 [MacTeX](https://www.tug.org/mactex/) (for Mac). Each of these comes with a
 package manager that will install packages that you need on the fly. I highly
 recommend you enable this option in whichever distribution you use, because it
@@ -94,28 +94,26 @@ automatically adding a `.txt` to it. You can do it in TeXworks, the MiKTeX
 bundled TeX editor, by pressing File -> New. I'm not sure what editor, if any,
 comes with TeXLive, so you're on your own until someone comments to tell me.
 
-<script src="https://gist.github.com/rschuetzler/11290131.js"></script>
+`gist:11290131`
 
 The basic structure of a LaTeX document is as follows:
 
 1. Preamble. This holds all of the package information, function definitions,
    and the `documentclass`.
-    1. `\documentclass{}` tells LaTeX what kind of document you are creating. If
-       you wanted to have chapters, you could use the `report` class. Since we
-       are creating a basic article, we will use the `article` class.
-    2. `\title{This Is My First Document}` tells LaTeX what the title of the
-       document will be. This will be used in the `\maketitle` command below
-	3. `\author{Ryan Schuetzler}` is where you'll put your name.
+   1. `\documentclass{}` tells LaTeX what kind of document you are creating. If
+      you wanted to have chapters, you could use the `report` class. Since we
+      are creating a basic article, we will use the `article` class.
+   2. `\title{This Is My First Document}` tells LaTeX what the title of the
+      document will be. This will be used in the `\maketitle` command below 3. `\author{Ryan Schuetzler}` is where you'll put your name.
 2. The `document` environment is where the body of the document will
    reside. This encompasses everything between `\begin{document}` and
    `\end{document}`.
-    1. `\maketitle` tells LaTeX to put the title of the document here. This is
-       basically the header, and is defined by the `documentclass`
-	2. `\section{}` `\subsection{}` and `\subsubsection{}` are the three levels
-       of section headings available in LaTeX. They basically correspond to
-       Heading 1, 2, and 3 in Word. If you want to go even deeper, you can use
-       `\paragraph{}` and `\subparagraph{}`, but maybe you should first consider
-       whether you really want to go that far down in headings.
+   1. `\maketitle` tells LaTeX to put the title of the document here. This is
+      basically the header, and is defined by the `documentclass` 2. `\section{}` `\subsection{}` and `\subsubsection{}` are the three levels
+      of section headings available in LaTeX. They basically correspond to
+      Heading 1, 2, and 3 in Word. If you want to go even deeper, you can use
+      `\paragraph{}` and `\subparagraph{}`, but maybe you should first consider
+      whether you really want to go that far down in headings.
 
 In the document environment, paragraphs are separated by an empty line of
 text. You can put as many sentences as you want on one line, and LaTeX will

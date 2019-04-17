@@ -1,6 +1,7 @@
 ---
-date: '2010-10-02'
+date: "2010-10-02"
 title: How to install Windows 7 from a Flash Drive
+description: Instructions for creating and using a Windows 7 boot USB drive
 ---
 
 <p>I've got a netbook and a DVD image of Windows 7. I don't have a disc drive for the netbook, so I have to figure out a way to get Windows 7 onto a USB drive to install from. Thanks to <a href="http://www.thinkcomputers.org/install-windows-7-from-a-usb-flash-drive/">this site</a>, I was able to get it.</p>
