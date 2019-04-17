@@ -12,7 +12,7 @@ read them all, but just in case.
 So as a new student of academia, I started looking for a good way to organize my
 files. Surely there must be a better system than storing random PDFs in whatever
 nonsensical names their publishers give them in a million places on my hard
-drive. That's when I first discovered [Mendeley](https://www.mendeley.com/). It
+drive. That's when I first discovered [Mendeley](http://www.mendeley.com/). It
 was a dream come true.
 
 <!-- more -->
@@ -25,7 +25,7 @@ in a paper. On top of all this, it provides a cloud syncing functionality to
 keep your information consistent across devices.
 
 After a few months with Mendeley I discovered
-[Qiqqa](https://www.qiqqa.com). Qiqqa was sexy. Qiqqa was newer. Qiqqa had more
+[Qiqqa](http://www.qiqqa.com). Qiqqa was sexy. Qiqqa was newer. Qiqqa had more
 features. Qiqqa could highlight with different colors. Qiqqa could OCR my
 documents to allow me to search ugly old PDFs. Qiqqa had neat brainstorming
 tools (that it turns out I never ever used). The biggest reason I switched is
@@ -47,10 +47,10 @@ for free. In case Mendeley is listening, here are some killer features I want,
 in order of awesomeness:
 
 * Get smarter about gathering metadata. I have to correct the data about 75% of
-the time.
+  the time.
 * Make a Papers-esque ability to grab BibTeX keys from
-anywhere. Writing a paper in LaTeX and inserting citations could be seamlessly
-integrated with my synced BibTex file.
+  anywhere. Writing a paper in LaTeX and inserting citations could be seamlessly
+  integrated with my synced BibTex file.
 * Highlights should appear in the notes section
 * Qiqqa's hierarchical tags were pretty neat. The ability to
-drill down within a set of tagged documents is a cool feature.
+  drill down within a set of tagged documents is a cool feature.

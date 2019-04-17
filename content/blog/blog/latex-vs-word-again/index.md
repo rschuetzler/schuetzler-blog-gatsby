@@ -5,11 +5,11 @@ title: LaTeX vs Word (again)
 
 A recently published article in PLoS ONE, entitled "An Efficiency Comparison of Document
 Preparation Systems Used in Academic Research and Development"
-([link here](https://www.plosone.org/article/info:doi/10.1371/journal.pone.0115069))
+([link here](http://www.plosone.org/article/info:doi/10.1371/journal.pone.0115069))
 lit the world on fire. Okay, not really. In fact, most people, including researchers and
 even LaTeX enthusiasts have probably not read it. And that's fine. Because it's not very
 good. And I'm
-[not the only one who thinks so](https://serialmentor.com/blog/2014/12/27/post-publication-review-of-the-plos-one-paper-comparing-ms-word-and-latex-how-not-to-compare-document-preparation).
+[not the only one who thinks so](http://serialmentor.com/blog/2014/12/27/post-publication-review-of-the-plos-one-paper-comparing-ms-word-and-latex-how-not-to-compare-document-preparation).
 
 The article focuses on the differences in "efficiency" of LaTeX and Word when writing
 academic research articles. Authors Knauff and Nejasmic apparently have some sort of bone
@@ -32,7 +32,7 @@ My immediate thought on reading about the task was to question how many hours of
 are spent duplicating an existing document. Sure, I'll freely admit that LaTeX is not as
 easy as Word when it comes to matching formatting rules. I spent several hours last spring
 creating a LaTeX template for the ICIS conference
-([here](https://www.schuetzler.net/blog/latex-icis-template/)), and it was at times
+([here](http://www.schuetzler.net/blog/latex-icis-template/)), and it was at times
 frustrating. Quickly and easily matching arbitrary formatting requirements is not where
 LaTeX shines.
 
@@ -42,9 +42,9 @@ we think of writing a paper. Document organization, references, statistics, coll
 version control (at least when collaborating, but even if not), and who knows what else
 are all much more important when creating a research paper. These (yes, even statistics
 with knitr) are where LaTeX and its magic shine through. I've
-[written](https://www.schuetzler.net/blog/intro-to-using-git-and-bitbucket-for-collaboration/)
-[multiple](https://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
-[times](https://www.schuetzler.net/blog/latex-for-researchers-pt-2/) about the learning
+[written](http://www.schuetzler.net/blog/intro-to-using-git-and-bitbucket-for-collaboration/)
+[multiple](http://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
+[times](http://www.schuetzler.net/blog/latex-for-researchers-pt-2/) about the learning
 curve of LaTeX, but throughout it all I will continue to sing its praises, though maybe
 it's just cognitive dissonance (more on that in a bit).
 
@@ -73,15 +73,15 @@ outperformed LaTeX users on the 30 minute sprint tasks, they took extensive crea
 liberty in extrapolating their findings. Here are the highlights:
 
 * Because Word users outperformed LaTeX on all but the equation text, only journals that
-use equations should accept LaTeX formatted documents.
+  use equations should accept LaTeX formatted documents.
 * LaTeX users were more satisfied about their experience creating a document, but only
-because they have cognitive dissonance and essentially lie to themselves about enjoying
-it to justify the time they have spent learning and using it.
+  because they have cognitive dissonance and essentially lie to themselves about enjoying
+  it to justify the time they have spent learning and using it.
 * Tax dollars are spent supporting research, and some of those dollars pay to create LaTeX
-documents, and so are wasted because people aren't using a more efficient document
-preparation system (i.e., Word) instead.
+  documents, and so are wasted because people aren't using a more efficient document
+  preparation system (i.e., Word) instead.
 * Therefore, leading journals should ban LaTeX submissions in order to save researchers
-from themselves, and to save tax money.
+  from themselves, and to save tax money.
 
 Pretty strong claims for a single experiment with 40 participants. I guess the validity of
 their conclusions really hinges on the validity of their task as a proxy for research. I
@@ -98,19 +98,19 @@ attempting to represent. However, this paper has a few major shortcomings that p
 recommending it for publication. The following are my suggestions for the authors:
 
 * Find a new task. One that more closely mirrors actual research. Add in a few
-LaTeX-friendly items like a bibliography with a couple dozen citations. Or dealing with
-figures, tables, and cross-references when those things move around.
+  LaTeX-friendly items like a bibliography with a couple dozen citations. Or dealing with
+  figures, tables, and cross-references when those things move around.
 * Compare the ease of adapting an existing text to new requirements. That's what research
-looks like when, say, a paper is rejected from one journal and must be submitted to a
-new one.
+  looks like when, say, a paper is rejected from one journal and must be submitted to a
+  new one.
 * Compare the different LaTeX tools. You mention in the article that the different tools
-are vastly different in capability. To quote: "Another characteristic of our study is
-that it is practically impossible to evaluate LaTeX without also evaluating the used
-editors." You said it yourself. Do it.
+  are vastly different in capability. To quote: "Another characteristic of our study is
+  that it is practically impossible to evaluate LaTeX without also evaluating the used
+  editors." You said it yourself. Do it.
 * Please please please tone down your discussion section. I know it is tempting to
-extrapolate your findings to saving billions of dollars in wasted research time due to
-LaTeX, but the limitations of your current design simply don't allow you to make those
-claims.
+  extrapolate your findings to saving billions of dollars in wasted research time due to
+  LaTeX, but the limitations of your current design simply don't allow you to make those
+  claims.
 
 Just because, in this one task Word performs better does not mean that you can throw LaTeX
 out with the bath water.

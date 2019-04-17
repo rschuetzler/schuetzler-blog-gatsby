@@ -3,9 +3,9 @@ date: '2013-04-04'
 title: Why I no longer blog with Google+
 ---
 
-<p>I&#039;m not a frequent blogger. I&#039;ve given blogging a go several times in the past five or so years, and it&#039;s never really stuck with me. Or rather, I&#039;ve never really stuck with it. I&#039;ve done self-hosted Wordpress, Drupal, and <a href="https://jekyllrb.com/">Jekyll</a>. I also have a Tumblr blog I used for a few months, and an old Wordpress.com hosted blog that I&#039;ve abandoned. Most recently I tried out blogging on Google+ following the advice of G+ addict <a href="https://plus.google.com/+MikeElgan/posts/QF2xfRi5erH">+Mike Elgan</a>.</p>
+<p>I&#039;m not a frequent blogger. I&#039;ve given blogging a go several times in the past five or so years, and it&#039;s never really stuck with me. Or rather, I&#039;ve never really stuck with it. I&#039;ve done self-hosted Wordpress, Drupal, and <a href="http://jekyllrb.com/">Jekyll</a>. I also have a Tumblr blog I used for a few months, and an old Wordpress.com hosted blog that I&#039;ve abandoned. Most recently I tried out blogging on Google+ following the advice of G+ addict <a href="https://plus.google.com/+MikeElgan/posts/QF2xfRi5erH">+Mike Elgan</a>.</p>
 
-<p>In his article about <a href="https://www.computerworld.com/s/article/9232329/Why_I_blog_on_Google_And_how_">blogging on Google+</a>, Mike makes some really great points. It is very easy to share, connect, comment, and just generally interact with people on G+. Unfortunately, it&#039;s not (yet) designed to be a blogging platform.</p>
+<p>In his article about <a href="http://www.computerworld.com/s/article/9232329/Why_I_blog_on_Google_And_how_">blogging on Google+</a>, Mike makes some really great points. It is very easy to share, connect, comment, and just generally interact with people on G+. Unfortunately, it&#039;s not (yet) designed to be a blogging platform.</p>
 
 <p>The biggest limitation I felt when using Google+ as a blog is the inability to have true hyperlinks. Sure, you can have a bunch of links in a post, but URLs are ugly. Nobody wants to see the full URL of an Android application, or even of another Google+ post. So when composing a post, it is limited to the one link that G+ turns into a prettified link at the bottom.</p>
 

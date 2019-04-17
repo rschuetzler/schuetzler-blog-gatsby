@@ -52,14 +52,14 @@ clicking through recommendations for movies I would never watch.<!--more-->
 Apparently my problem was that I was looking in the wrong place. I thought the rating
 filtering would be under Taste Preferences. Turns out it's in another spot entirely. Here
 are the instructions that I found on the
-Netflix <a href="https://community.netflix.com/forum/topics/1993323:Topic:278?page=9&amp;commentId=1993323:Comment:7614&amp;x=1">Feature Wishlist</a>:
+Netflix <a href="http://community.netflix.com/forum/topics/1993323:Topic:278?page=9&amp;commentId=1993323:Comment:7614&amp;x=1">Feature Wishlist</a>:
 
 <ol>
-<li>Go to the top of the netflix website, next to your name, you'll see a link to
-"<a rel="nofollow" href="https://www.netflix.com/YourAccount">Your Account</a>",</li>
-<li>After clicking on that, click on the link that says "Account Profiles",</li>
-<li>Click on "Edit" next to the profile you wish to change,</li>
-<li>Click on "Maturity Level" and choose the level you wish to have access to only.</li>
+	<li>Go to the top of the netflix website, next to your name, you'll see a link to
+	"<a rel="nofollow" href="http://www.netflix.com/YourAccount">Your Account</a>",</li>
+	<li>After clicking on that, click on the link that says "Account Profiles",</li>
+	<li>Click on "Edit" next to the profile you wish to change,</li>
+	<li>Click on "Maturity Level" and choose the level you wish to have access to only.</li>
 </ol>
 
 If you don't want to see movies rated R, just set the maturity level to PG-13. It worked

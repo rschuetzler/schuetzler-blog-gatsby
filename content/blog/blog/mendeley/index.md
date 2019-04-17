@@ -3,13 +3,13 @@ date: '2011-03-23'
 title: Mendeley
 ---
 
-<p>In my quest to find the perfect tool to manage my ever-expanding library of PDFs, I discovered a tool calledï¿½<a hrefhttps:p://www.mendeley.com/" target="_blank">Mendeley</a>. Here's a quick rundown of what Mendeley does for me:</p>
+<p>In my quest to find the perfect tool to manage my ever-expanding library of PDFs, I discovered a tool called <a href="http://www.mendeley.com/" target="_blank">Mendeley</a>. Here's a quick rundown of what Mendeley does for me:</p>
 <ul>
-<li>Manages references - this is similar to EndNote. You can put references into folders based on topic, class, project, paper, or whatever you want.</li>
-<li>Manages PDFs - I have it set up to move all my PDFs to one folder and rename them to Author - Year - Title. I then use Dropbox to sync that folder to all my computers so I can always have access to my PDFs when I want them. <strong>Edit</strong>: Mendeley provides a sync service, but the free version is limited to 500 MB of individual space and 500 MB free space. Since I have the files in a Dropbox folder anyway, I just use that.</li>
-<li>Cite while you write - The functionality for this isn't quite as full-fledged as EndNote, but you can insert citations and a bibliography that is automatically updated based on the citations. More on this below.</li>
-<li>Lit review - this is one of the killer features. Most references have an entry in the "Mendeley online Catalog." If you go to the online catalog, you can see links to similar articles.</li>
-<li>Collaboration - you can create collaborative groups of references, and everyone can have access to the same library of references and PDFs.</li>
+	<li>Manages references - this is similar to EndNote. You can put references into folders based on topic, class, project, paper, or whatever you want.</li>
+	<li>Manages PDFs - I have it set up to move all my PDFs to one folder and rename them to Author - Year - Title. I then use Dropbox to sync that folder to all my computers so I can always have access to my PDFs when I want them. <strong>Edit</strong>: Mendeley provides a sync service, but the free version is limited to 500 MB of individual space and 500 MB free space. Since I have the files in a Dropbox folder anyway, I just use that.</li>
+	<li>Cite while you write - The functionality for this isn't quite as full-fledged as EndNote, but you can insert citations and a bibliography that is automatically updated based on the citations. More on this below.</li>
+	<li>Lit review - this is one of the killer features. Most references have an entry in the "Mendeley online Catalog." If you go to the online catalog, you can see links to similar articles.</li>
+	<li>Collaboration - you can create collaborative groups of references, and everyone can have access to the same library of references and PDFs.</li>
 </ul>
 <p>I'm new to it, so I'm sure I will run into some limitations, but right now it seems like a pretty awesome tool. Also, you can import to/export from EndNote if you have to continue using that to work with other EndNote users.</p>
 

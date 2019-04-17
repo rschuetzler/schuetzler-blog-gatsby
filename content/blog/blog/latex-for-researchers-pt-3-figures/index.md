@@ -1,13 +1,13 @@
 ---
-date: '2014-06-06'
-title: 'LaTeX for Researchers, Part 3: Figures'
+date: "2014-06-06"
+title: "LaTeX for Researchers, Part 3: Figures"
 ---
 
 If you're just joining us, it's probably best to start out with my first two
 posts:
 
-* [Setting Up](https://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
-* [Citations](https://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
+- [Setting Up](http://www.schuetzler.net/blog/latex-for-researchers-pt-1/)
+- [Citations](http://www.schuetzler.net/blog/latex-for-researchers-pt-2/)
 
 Now that we've covered how to do create a document and how to add citations, the
 next major items we need to be able to put in a research manuscript are
@@ -47,8 +47,8 @@ create a directory in the same directory as our `.tex` file and call it
 figs. Then we'll point LaTeX to that directory using the following pair of
 commands in the preample:
 
-\usepackage{graphicx}
-\graphicspath { {figs/} }
+    \usepackage{graphicx}
+    \graphicspath { {figs/} }
 
 The `graphicx` package gives us useful features for including graphics, and the
 `\graphicspath` command tells LaTeX where the figures are stored. You could omit
@@ -60,17 +60,17 @@ Now we're all set up to add figures to our document. We just need some figures
 to add. LaTeX is pretty good about image formats, but I pretty much always use
 PNG for my figures and screenshots, so that's what we'll use now. For the
 example I'll use
-[this smiley face](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/640px-Smiley.svg.png)
+[this smiley face](http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/640px-Smiley.svg.png)
 that I've saved to my figs folder and named `smiley.png`. When I want to include
 it in my document, I do so with the following code:
 
-<script src="https://gist.github.com/rschuetzler/b16d49ca8ee29cde55ca.js"></script>
+`gist:b16d49ca8ee29cde55ca`
 
 Let's deconstruct what exactly we have here. First off, we start a `figure`
 environment. This environment is a floating environment, so it takes the
 arguments associated with floats. The arguments I've chosed to include are
 `ht`. The
-[LaTeX wikibook page on figures](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions)
+[LaTeX wikibook page on figures](http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions)
 has an excellent explanation of what all possible arguments are for floats. Like
 I mentioned above, LaTeX wants your document to look nice. To do that, it has to
 have some freedom in where to place your figures. These arguments tell LaTeX
@@ -93,24 +93,24 @@ you will want to resize the image. If your default graphic is too large,
 you have several options for resizing. The first, and possibly most difficult is
 the `scale` argument, which would be used as follows:
 
-\includegrpahics[scale=0.45]{smiley.png}
+    \includegrpahics[scale=0.45]{smiley.png}
 
 This shrinks the image to 0.45x its original size. You can also specify one
 dimension of the image and it will be proportionally scaled, like so:
 
-\includegraphics[width=3in]{smiley.png}
+    \includegraphics[width=3in]{smiley.png}
 
 We can even do fancy multiplication. If you want the graphic to be 1/2 the width
 of the text, just throw in:
 
-\includegraphics[width=0.5\textwidth]{smiley.png}
+    \includegraphics[width=0.5\textwidth]{smiley.png}
 
 This will give you a figure in your document. Of course, that's rarely all you
 want to do. Good style dictates that each figure be given a caption. LaTeX
 provides a way to do that by including a `\caption` command inside the figure
 tags, like so:
 
-\caption{This is our awesome smiley face}
+    \caption{This is our awesome smiley face}
 
 Recompile the document and you will see that the caption has been added. If you
 put the `\caption` above the `\includegraphics` command, the caption will appear
@@ -123,12 +123,12 @@ document. For this, LaTeX provides labels. These work similarly to Word's
 cross-references, but they actually work and don't break. You add a label
 (basically a name) to your figure like so:
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.5\textwidth]{smiley.png}
-\caption{Prototype system for embodied agent condition}
-\label{fig:agent}  % This is our new line
-\end{figure}
+    \begin{figure}[ht]
+      \centering
+      \includegraphics[width=0.5\textwidth]{smiley.png}
+      \caption{Prototype system for embodied agent condition}
+      \label{fig:agent}  % This is our new line
+    \end{figure}
 
 The content of the label can be whatever you want, but I recommend using a
 useful name. Since you can also use labels with tables and other numbered items,
@@ -137,7 +137,7 @@ you want to reference that figure in the text, you can simply use the label name
 to reference it. Put the following snippet into the document to see it in
 action:
 
-This is me referencing Figure~\ref{fig:smile}.
+    This is me referencing Figure~\ref{fig:smile}.
 
 The `\ref` automatically fills in the number of the image labeled
 fig:smile. That way when you add more figures or move things around, the
@@ -149,13 +149,13 @@ nice.
 So here is the complete LaTeX file demonstrating how to caption, label,
 reference, and resize your images:
 
-<script src="https://gist.github.com/rschuetzler/3e6030ad739fe2718ea3.js"></script>
+`gist:3e6030ad739fe2718ea3`
 
 And now you've got it. You have everything you need to make figures show up in
 your documents. It may not be as easy as adding them in Word, but it's
 guaranteed to break a whole lot less often. If you want to do more, you can
 check out the LaTeX wiki's guides to
-[importing graphics](https://en.wikibooks.org/wiki/LaTeX/Importing_Graphics) and
-[managing floats](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions).
+[importing graphics](http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics) and
+[managing floats](http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions).
 Alternatively, leave a comment and I'd be happy to look into it. I'm always up
 for learning new things.
