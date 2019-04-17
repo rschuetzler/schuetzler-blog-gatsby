@@ -11,20 +11,20 @@ title: How to do tech support for family
 
 <p>For the Helpee:</p>
 <ol>
-<li>Hit the Start/Windows icon and type Remote Assistance in the "Search Programs" box</li>
-<li>Click Windows Remote Assistance</li>
-<li>Click "Invite someone you trust to help you"</li>
-<li>If you see another windows saying "Who do you want to get help from," click "Invite someone to help you."</li>
-<li>Click "Use EasyConnect" and give the helper the EasyConnect Password</li>
+	<li>Hit the Start/Windows icon and type Remote Assistance in the "Search Programs" box</li>
+	<li>Click Windows Remote Assistance</li>
+	<li>Click "Invite someone you trust to help you"</li>
+	<li>If you see another windows saying "Who do you want to get help from," click "Invite someone to help you."</li>
+	<li>Click "Use EasyConnect" and give the helper the EasyConnect Password</li>
 </ol>
 Now the Helper steps in:
 <ol>
-<li>One Windows Remote Assistance the same way as above</li>
-<li>Click "Help someone who has invited you"</li>
-<li>Click either the username of the person you are helping, or click "Help Someone new" if you see that screen. If not, just click "Use EasyConnect"</li>
-<li>Enter the password given to you in step 5 of the Helpee instructions above</li>
-<li>The Helpee will see a prompt asking if they want to share control of their computer with such-and-such. Instruct them to click yes on that prompt.</li>
+	<li>One Windows Remote Assistance the same way as above</li>
+	<li>Click "Help someone who has invited you"</li>
+	<li>Click either the username of the person you are helping, or click "Help Someone new" if you see that screen. If not, just click "Use EasyConnect"</li>
+	<li>Enter the password given to you in step 5 of the Helpee instructions above</li>
+	<li>The Helpee will see a prompt asking if they want to share control of their computer with such-and-such. Instruct them to click yes on that prompt.</li>
 </ol>
 <p>You now have a shared view of the computer. I don't remember the name of the button, but in the upper-left corner of the Helper's screen you should see a button that says something like "Request control." If you click that button, the Helpee will receive a prompt asking if they want to share control of the screen. If he/she clicks "Yes," you (the Helper) will be able to control the computer. This is incredibly useful for searching for stuff or demonstrating how to do something.</p>
 
-<p>I know there are other tools as well that provide similar functionality. <a href="https://secure.logmein.com/">Logmein </a>and <a href="https://www.teamviewer.com/index.aspx">TeamViewer </a>are the two most common that I hear. However, both of these (I think) are browser-based, which to me seems like a big disadvantage. They don't provide the same experience as Remote Assistance in my experience. Plus, Windows Remote Assistance comes pre-packaged with Windows, so it's already there and ready to use.</p>
+<p>I know there are other tools as well that provide similar functionality. <a href="https://secure.logmein.com/">Logmein </a>and <a href="http://www.teamviewer.com/index.aspx">TeamViewer </a>are the two most common that I hear. However, both of these (I think) are browser-based, which to me seems like a big disadvantage. They don't provide the same experience as Remote Assistance in my experience. Plus, Windows Remote Assistance comes pre-packaged with Windows, so it's already there and ready to use.</p>

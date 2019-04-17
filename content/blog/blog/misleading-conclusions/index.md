@@ -7,9 +7,9 @@ title: Misleading Conclusions
 I can rarely take the results of any study at face value. I suppose this has
 more to do with learning statistics than being a doctoral student, but
 nevertheless, I have a problem. So today when I read a recent article from <a
-href="https://www.wired.com">Wired</a> about <a
-href="https://www.wired.com/wiredscience/2012/01/opposites-dont-attract-and-thats-bad-news/">how
-apparently opposites don't really attract</a>, I got a little suspicious
+    href="http://www.wired.com">Wired</a> about <a
+    href="http://www.wired.com/wiredscience/2012/01/opposites-dont-attract-and-thats-bad-news/">how
+    apparently opposites don't really attract</a>, I got a little suspicious
 about some of the conclusions of one of the studies they mentioned.</p>
 
 <p>The study comes from Angela Bahns, Kate Pickett, and Christian Crandall at

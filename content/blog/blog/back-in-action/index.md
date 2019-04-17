@@ -14,8 +14,8 @@ blog, even if I'd had time to do it.
 
 But here I am.  I've got the blog deployment back up and running, and I can maybe see
 myself making time to write up some tutorials about things I run across.  I'm working on
-creating a set of networking labs using [Vagrant](https://vagrantup.com) and
-[Virtualbox](https://virtualbox.org), so maybe I'll talk about some of the things I've
+creating a set of networking labs using [Vagrant](http://vagrantup.com) and
+[Virtualbox](http://virtualbox.org), so maybe I'll talk about some of the things I've
 learned from that.  I'm sure I'll also talk about the experience of moving from grad
 school to professorhood, but that's still pretty new, so I'll let things settle down a bit
 before I try to distill my thoughts.

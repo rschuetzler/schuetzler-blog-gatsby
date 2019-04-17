@@ -4,7 +4,7 @@ title: How to source one ftplugin from another
 ---
 
 I recently read an article about [using Vim for writing
-prose](https://alols.github.com/2012/11/07/writing-prose-with-vim/). A lot of
+prose](http://alols.github.com/2012/11/07/writing-prose-with-vim/). A lot of
 the tips there are really cool, but I don't want or need them for all the types
 of files I write in. I do, however, use TeX and Markdown frequently, and who
 knows if I'd ever want another file type. So I didn't want to create separate
@@ -18,7 +18,7 @@ So I figured out how to reference one `ftplugin` file from another. I created
 Then I created `markdown.vim` and `tex.vim` and added the following line to
 both of them. This made all the difference
 
-runtime! ftplugin/prose.vim
+	runtime! ftplugin/prose.vim
 
 With that, I load my prose.vim file any time I use markdown or tex files. And
 any time I want to change the way those act, I can just make changes in one
