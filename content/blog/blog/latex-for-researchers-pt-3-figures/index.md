@@ -47,8 +47,10 @@ create a directory in the same directory as our `.tex` file and call it
 figs. Then we'll point LaTeX to that directory using the following pair of
 commands in the preample:
 
-    \usepackage{graphicx}
-    \graphicspath { {figs/} }
+```latex
+\usepackage{graphicx}
+\graphicspath { {figs/} }
+```
 
 The `graphicx` package gives us useful features for including graphics, and the
 `\graphicspath` command tells LaTeX where the figures are stored. You could omit
@@ -93,24 +95,32 @@ you will want to resize the image. If your default graphic is too large,
 you have several options for resizing. The first, and possibly most difficult is
 the `scale` argument, which would be used as follows:
 
-    \includegrpahics[scale=0.45]{smiley.png}
+```latex
+\includegraphics[scale=0.45]{smiley.png}
+```
 
 This shrinks the image to 0.45x its original size. You can also specify one
 dimension of the image and it will be proportionally scaled, like so:
 
-    \includegraphics[width=3in]{smiley.png}
+```latex
+\includegraphics[width=3in]{smiley.png}
+```
 
 We can even do fancy multiplication. If you want the graphic to be 1/2 the width
 of the text, just throw in:
 
-    \includegraphics[width=0.5\textwidth]{smiley.png}
+```latex
+\includegraphics[width=0.5\textwidth]{smiley.png}
+```
 
 This will give you a figure in your document. Of course, that's rarely all you
 want to do. Good style dictates that each figure be given a caption. LaTeX
 provides a way to do that by including a `\caption` command inside the figure
 tags, like so:
 
-    \caption{This is our awesome smiley face}
+```latex
+\caption{This is our awesome smiley face}
+```
 
 Recompile the document and you will see that the caption has been added. If you
 put the `\caption` above the `\includegraphics` command, the caption will appear
@@ -123,12 +133,14 @@ document. For this, LaTeX provides labels. These work similarly to Word's
 cross-references, but they actually work and don't break. You add a label
 (basically a name) to your figure like so:
 
-    \begin{figure}[ht]
-      \centering
-      \includegraphics[width=0.5\textwidth]{smiley.png}
-      \caption{Prototype system for embodied agent condition}
-      \label{fig:agent}  % This is our new line
-    \end{figure}
+```latex
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{smiley.png}
+    \caption{Prototype system for embodied agent condition}
+    \label{fig:agent}  % This is our new line
+\end{figure}
+```
 
 The content of the label can be whatever you want, but I recommend using a
 useful name. Since you can also use labels with tables and other numbered items,
@@ -137,7 +149,9 @@ you want to reference that figure in the text, you can simply use the label name
 to reference it. Put the following snippet into the document to see it in
 action:
 
-    This is me referencing Figure~\ref{fig:smile}.
+```latex
+This is me referencing Figure~\ref{fig:smile}.
+```
 
 The `\ref` automatically fills in the number of the image labeled
 fig:smile. That way when you add more figures or move things around, the
